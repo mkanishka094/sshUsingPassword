@@ -1,0 +1,6 @@
+# ssh_playbook.yml
+---
+- name: Connect to Linux server using password
+  hosts: linux_servers
+  roles:
+    - ssh_with_password
