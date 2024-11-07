@@ -1,0 +1,4 @@
+# roles/ssh_with_password/tasks/main.yml
+---
+- name: Test SSH connection with password
+  ansible.builtin.ping:
